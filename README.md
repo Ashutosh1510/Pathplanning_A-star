@@ -11,7 +11,18 @@ This Algorithm is the advanced form of the BFS algorithm (Breadth-first search),
 5. argparse
 
 ## Steps to Run the code
-
+- Git clone:
+```
+git clone https://github.com/Ashutosh1510/Pathplanning_A-star
+```
+1. Change directory to the root of the directory
+```
+cd Pathplanning_A-star-main/A_star/source
+```
+2. To run the code
+```
+python3 main.py
+```
 ### **Parameters**
 - radius: Radius of the robot
 - clearance: Clearance for the Obstacle
@@ -21,10 +32,7 @@ This Algorithm is the advanced form of the BFS algorithm (Breadth-first search),
 - Xg: X-coordinate of the goal point of the robot
 - Yg: y-coordinate of the goal point of the robot
 
-1. Change directory to the root of the directory
-```
-cd 
-```
-2. To run the code
-```
-python3 
+# Example Figure after backtracking
+
+![Figure_1](https://user-images.githubusercontent.com/76493296/159763590-2f71888c-22d8-4330-809d-35416378cc71.png)
+
